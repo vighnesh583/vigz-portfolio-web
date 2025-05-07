@@ -1,0 +1,75 @@
+.home-section {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background 0.3s, color 0.3s;
+  padding-left: 10px;
+  margin-left: 0; /* <-- FIX */
+}
+
+
+.dark-theme .home-section {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.main-heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.dark-theme .main-heading {
+  color: #66ccff;
+}
+
+.sub-heading {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.highlighted {
+  color: #fd7e14;
+}
+
+.description {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.dark-theme .description {
+  color: #ccc;
+}
+
+.profile-image {
+  width: 90%;
+  max-width: 450px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.dark-theme .profile-image {
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.432);
+}
+
+.profile-image:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1.25rem;
+  }
+
+  .profile-image {
+    max-width: 80%;
+    margin-top: 2rem;
+  }
+}

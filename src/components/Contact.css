@@ -1,0 +1,18 @@
+.dark-theme .card {
+    background-color: #1e1e1e;
+    color: white;
+    border-color: #333;
+  }
+  
+  .dark-theme .form-control {
+    background-color: #2a2a2a;
+    color: white;
+    border-color: #444;
+  }
+  
+  .dark-theme .form-control::placeholder {
+    color: #aaa;
+  }
+  
+
+  

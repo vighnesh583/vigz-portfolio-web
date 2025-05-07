@@ -1,0 +1,33 @@
+.about-section {
+    background-color: #ffffff;
+    color: #212529;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .dark-theme .about-section {
+    background-color: #121212;
+    color: #e1e1e1;
+  }
+  
+  .dark-theme .text-primary {
+    color: #66ccff !important;
+  }
+  
+  .dark-theme .border-primary {
+    border-color: #66ccff !important;
+  }
+  
+  .social-icons a {
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: #0d6efd !important; /* Bootstrap primary color (you can customize) */
+  }
+  
+  /* Optional dark theme customization */
+  .dark-theme .social-icons a:hover {
+    color: #66ccff !important;
+  }
+  

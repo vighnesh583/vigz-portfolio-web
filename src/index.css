@@ -1,0 +1,60 @@
+/* Global Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML base font size for responsive scaling */
+html {
+  font-size: 100%; /* 16px base size (1rem = 16px) */
+}
+
+/* Body and root styling */
+body {
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  background-color: #f7fafc; /* Equivalent to Tailwind's bg-gray-100 */
+  color: #1a202c; /* Equivalent to Tailwind's text-gray-900 */
+  line-height: 1.5;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Links styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ensuring consistent form field appearance */
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Optional - Reset for form inputs */
+input, textarea, button {
+  border: none;
+  outline: none;
+}
+
+/* Optional - Universal font smoothing */
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Universal box-sizing for easier layout control */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Custom Styles: Add here for your custom styles and themes */
