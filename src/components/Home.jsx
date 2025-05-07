@@ -45,7 +45,7 @@ export default function Home() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.9 }}
             >
-              <a href="/project" className="btn btn-primary btn-lg mx-2">
+              <a href="/projects" className="btn btn-primary btn-lg mx-2">
                 View Projects
               </a>
               <a href="/contact" className="btn btn-outline-secondary btn-lg mx-2">
