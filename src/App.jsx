@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import ProjectDetail from './components/ProjectDetail'
 import './App.css'
-import Services from './components/services'
+
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false)
