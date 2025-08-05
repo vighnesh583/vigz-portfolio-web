@@ -35,7 +35,7 @@ const projects = [
     ],
     image: '/images/2.jpg',
     image1: '/images/portfolio.png',
-    link: 'https://your-portfolio.vercel.app',
+    link: 'https://vigz-portfolio-web.vercel.app/',
     technologies: ['React Js', 'Bootstrap', 'Framer Motion', 'HTML', 'CSS']
   },
   {

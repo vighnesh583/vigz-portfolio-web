@@ -12,7 +12,7 @@ export default function ProjectDetail() {
   return (
     <div className="container py-5">
       <div className="card shadow-lg">
-        <img src={project.image1} className="card-img-top" alt={project.name} />
+        <a href={project.link} target='_blank'> <img src={project.image1} className="card-img-top" alt={project.name} /> </a>
         <div className="card-body">
           <h2 className="display-5 fw-bold text-warning">{project.name}</h2>
           <br />
