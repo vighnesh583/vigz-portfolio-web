@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import ProjectDetail from './components/ProjectDetail'
 import './App.css'
+import ScrollToTop from './components/ScrollToTop'
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <div className={`app ${darkMode ? 'dark-theme' : ''}`}>
           <nav className="navbar">
             <div className="logo"><b className="text-orange">Vighz</b></div>
