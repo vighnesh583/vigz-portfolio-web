@@ -4,6 +4,7 @@ const projects = [
   {
     id: 'project1',
     name: 'Portfolio Website',
+    category: 'web',
     shortDesc: 'A personal portfolio built with React and Bootstrap.',
     longDesc: [
       {
@@ -41,6 +42,7 @@ const projects = [
   {
     id: 'project2',
     name: 'Delux Supermarket',
+    category: 'web',
     shortDesc: '👉 "Delux Supermarket" is a demo template online shopping platform',
     longDesc: [
       {
@@ -79,6 +81,7 @@ const projects = [
   {
     id: 'project3',
     name: 'Typing Speed Test',
+    category: 'web',
     shortDesc: '👉 A responsive Typing Speed Test web app that helps users measure their typing speed and accuracy in real time',
     longDesc: [
       {
@@ -116,6 +119,7 @@ const projects = [
   {
     id: 'project4',
     name: 'Todo App',
+    category: 'web',
     shortDesc: '👉 A simple and interactive To-Do List web app built using HTML, CSS, and JavaScript.',
     longDesc: [
       {
@@ -162,6 +166,7 @@ const projects = [
   {
     id: 'project5',
     name: 'Admin Panel UI',
+    category: 'web',
     shortDesc: '👉 A clean and responsive Admin Panel dashboard built using only HTML and CSS.',
     longDesc: [
       {
@@ -207,7 +212,7 @@ const projects = [
     link: 'https://demo-adminpanel-std.vercel.app/',
     technologies: ['HTML', 'CSS']
   }
-  
+
 ];
 
 export default projects;
